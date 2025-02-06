@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, intall dependencies:
+```bash
+npm install
+```
+
+Second, Make a .env file and add MongoDB uri:
+```bash
+MONGODB_URI=mongodb://localhost:27017/todoDB
+```
+
+Now, run the development server:
 
 ```bash
 npm run dev
